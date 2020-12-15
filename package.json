@@ -1,0 +1,28 @@
+{
+  "name": "tdd-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^5.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://83ab44709ab033da546a3300ffcae3e3aefb3d2f@github.com/nworkers/tdd-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nworkers/tdd-exercise/issues"
+  },
+  "homepage": "https://github.com/nworkers/tdd-exercise#readme",
+  "husky" : {
+    "hooks": {
+		"pre-commit" : "npm test"
+	}
+  }
+}
