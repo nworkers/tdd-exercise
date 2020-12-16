@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.00)
 PROJECT(tdd-exercise-test CXX)
 
 SET (SRCS ./test_main.cpp ./test_sum.cpp ../sum.cpp)
