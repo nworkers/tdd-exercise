@@ -20,9 +20,4 @@
     "url": "https://github.com/nworkers/tdd-exercise/issues"
   },
   "homepage": "https://github.com/nworkers/tdd-exercise#readme",
-  "husky" : {
-    "hooks": {
-		"pre-commit" : "npm test"
-	}
-  }
 }
