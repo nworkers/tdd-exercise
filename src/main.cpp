@@ -3,5 +3,6 @@
 
 int main(int argc, char *argv[])
 {
-	printf("hello, world. %d\n", sum(2,5));
+    printf("hello, world. %d\n", sum(2, 5));
 }
+
